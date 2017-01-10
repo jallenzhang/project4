@@ -1,0 +1,92 @@
+{"frames": {
+
+"0000.png":
+{
+	"frame": {"x":564,"y":213,"w":248,"h":225},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":0,"w":248,"h":225},
+	"sourceSize": {"w":400,"h":225}
+},
+"0001.png":
+{
+	"frame": {"x":2,"y":219,"w":248,"h":225},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":0,"w":248,"h":225},
+	"sourceSize": {"w":400,"h":225}
+},
+"0002.png":
+{
+	"frame": {"x":306,"y":191,"w":256,"h":207},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":8,"w":256,"h":207},
+	"sourceSize": {"w":400,"h":225}
+},
+"0003.png":
+{
+	"frame": {"x":586,"y":2,"w":274,"h":209},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":8,"w":274,"h":209},
+	"sourceSize": {"w":400,"h":225}
+},
+"0004.png":
+{
+	"frame": {"x":2,"y":2,"w":302,"h":215},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":58,"y":10,"w":302,"h":215},
+	"sourceSize": {"w":400,"h":225}
+},
+"0005.png":
+{
+	"frame": {"x":306,"y":2,"w":278,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":28,"w":278,"h":187},
+	"sourceSize": {"w":400,"h":225}
+},
+"ui_01_01.png":
+{
+	"frame": {"x":814,"y":306,"w":88,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":4,"w":88,"h":90},
+	"sourceSize": {"w":100,"h":100}
+},
+"ui_01_02.png":
+{
+	"frame": {"x":862,"y":206,"w":94,"h":98},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":94,"h":98},
+	"sourceSize": {"w":100,"h":100}
+},
+"ui_01_03.png":
+{
+	"frame": {"x":862,"y":104,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+},
+"ui_01_04.png":
+{
+	"frame": {"x":862,"y":2,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "win_effect.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c1dafd0dd50ccb1eb181fcffa5ecaaab:1/1$"
+}
+}

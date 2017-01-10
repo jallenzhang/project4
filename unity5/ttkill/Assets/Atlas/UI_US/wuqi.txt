@@ -1,0 +1,60 @@
+{"frames": {
+
+"chongwu.png":
+{
+	"frame": {"x":619,"y":705,"w":396,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":17,"w":396,"h":103},
+	"sourceSize": {"w":400,"h":125}
+},
+"fu.png":
+{
+	"frame": {"x":619,"y":810,"w":388,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":388,"h":125},
+	"sourceSize": {"w":400,"h":125}
+},
+"genghuanjuese.png":
+{
+	"frame": {"x":619,"y":937,"w":267,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":267,"h":70},
+	"sourceSize": {"w":267,"h":70}
+},
+"wuqi.png":
+{
+	"frame": {"x":619,"y":592,"w":400,"h":111},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":400,"h":111},
+	"sourceSize": {"w":400,"h":125}
+},
+"wuqixinxikuang.png":
+{
+	"frame": {"x":2,"y":592,"w":615,"h":383},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":615,"h":383},
+	"sourceSize": {"w":615,"h":383}
+},
+"wuqixuanzedikuang.png":
+{
+	"frame": {"x":2,"y":2,"w":908,"h":588},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":908,"h":588},
+	"sourceSize": {"w":908,"h":588}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "wuqi.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:aa9027f494b2562e6d62c1b01483fb19$"
+}
+}

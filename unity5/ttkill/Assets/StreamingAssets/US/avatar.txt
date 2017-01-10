@@ -1,0 +1,5 @@
+[{"id":1,"name":"小人","maxlv":30},
+{"id":2,"name":"大人","maxlv":30},
+{"id":3,"name":"老大人","maxlv":40},
+{"id":4,"name":"阿三","maxlv":50},
+{"id":5,"name":"萨芬","maxlv":50}]

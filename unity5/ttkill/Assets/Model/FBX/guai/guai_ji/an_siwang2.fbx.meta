@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: 311642a7a8ce1f04db96775de03692b1
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BackA_M
+    100004: backAnkle_L
+    100006: backAnkle_R
+    100008: BackB_M
+    100010: backBall_L
+    100012: backBall_R
+    100014: backHip_L
+    100016: backHip_R
+    100018: backKnee_L
+    100020: backKnee_R
+    100022: Chest_M
+    100024: DCHP006
+    100026: DeformationSystem
+    100028: Group
+    100030: Hair_M
+    100032: Head_M
+    100034: Main
+    100036: Neck_M
+    100038: NeckPart1_M
+    100040: NeckPart2_M
+    100042: Root_M
+    100044: Rump_L
+    100046: Rump_R
+    100048: Tail0_M
+    100050: Tail1_M
+    400000: //RootNode
+    400002: BackA_M
+    400004: backAnkle_L
+    400006: backAnkle_R
+    400008: BackB_M
+    400010: backBall_L
+    400012: backBall_R
+    400014: backHip_L
+    400016: backHip_R
+    400018: backKnee_L
+    400020: backKnee_R
+    400022: Chest_M
+    400024: DCHP006
+    400026: DeformationSystem
+    400028: Group
+    400030: Hair_M
+    400032: Head_M
+    400034: Main
+    400036: Neck_M
+    400038: NeckPart1_M
+    400040: NeckPart2_M
+    400042: Root_M
+    400044: Rump_L
+    400046: Rump_R
+    400048: Tail0_M
+    400050: Tail1_M
+    4300000: DCHP006
+    7400000: dead_can
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: DCHP006
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: dead_can
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 17.5
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DCHP006
+        weight: 1
+      - path: Group
+        weight: 1
+      - path: Group/Main
+        weight: 1
+      - path: Group/Main/DeformationSystem
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/NeckPart1_M
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/NeckPart1_M/NeckPart2_M
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/NeckPart1_M/NeckPart2_M/Head_M
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/NeckPart1_M/NeckPart2_M/Head_M/Hair_M
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Rump_L
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Rump_L/backHip_L
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Rump_L/backHip_L/backKnee_L
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Rump_L/backHip_L/backKnee_L/backAnkle_L
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Rump_L/backHip_L/backKnee_L/backAnkle_L/backBall_L
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Rump_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Rump_R/backHip_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Rump_R/backHip_R/backKnee_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Rump_R/backHip_R/backKnee_R/backAnkle_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Rump_R/backHip_R/backKnee_R/backAnkle_R/backBall_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Tail0_M
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Tail0_M/Tail1_M
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

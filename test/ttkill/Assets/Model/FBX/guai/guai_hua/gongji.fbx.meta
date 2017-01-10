@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: 50bf0ba15ce06aa47bb1dab791ef73ea
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: bangding:BackA_M
+    100002: bangding:backAnkle_L
+    100004: bangding:backAnkle_R
+    100006: bangding:BackB_M
+    100008: bangding:backBall_L
+    100010: bangding:backBall_R
+    100012: bangding:backHip_L
+    100014: bangding:backHip_R
+    100016: bangding:backKnee_L
+    100018: bangding:backKnee_R
+    100020: bangding:Chest_M
+    100022: bangding:DeformationSystem
+    100024: bangding:Group
+    100026: bangding:guai_hua:polySurface204
+    100028: bangding:Hair_M
+    100030: bangding:Head_M
+    100032: bangding:Jaw_M
+    100034: bangding:JawEnd_M
+    100036: bangding:Main
+    100038: bangding:Neck_M
+    100040: bangding:NeckPart1_M
+    100042: bangding:NeckPart2_M
+    100044: bangding:Root_M
+    100046: bangding:Rump_L
+    100048: bangding:Rump_R
+    100050: bangding:Tail0_M
+    100052: bangding:Tail1_M
+    100054: bangding:Tail2_M
+    100056: bangding:Tail3_M
+    100058: bangding:Tail4_M
+    100060: bangding:Tail5_M
+    100062: bangding:Tail6_M
+    100064: //RootNode
+    400000: bangding:BackA_M
+    400002: bangding:backAnkle_L
+    400004: bangding:backAnkle_R
+    400006: bangding:BackB_M
+    400008: bangding:backBall_L
+    400010: bangding:backBall_R
+    400012: bangding:backHip_L
+    400014: bangding:backHip_R
+    400016: bangding:backKnee_L
+    400018: bangding:backKnee_R
+    400020: bangding:Chest_M
+    400022: bangding:DeformationSystem
+    400024: bangding:Group
+    400026: bangding:guai_hua:polySurface204
+    400028: bangding:Hair_M
+    400030: bangding:Head_M
+    400032: bangding:Jaw_M
+    400034: bangding:JawEnd_M
+    400036: bangding:Main
+    400038: bangding:Neck_M
+    400040: bangding:NeckPart1_M
+    400042: bangding:NeckPart2_M
+    400044: bangding:Root_M
+    400046: bangding:Rump_L
+    400048: bangding:Rump_R
+    400050: bangding:Tail0_M
+    400052: bangding:Tail1_M
+    400054: bangding:Tail2_M
+    400056: bangding:Tail3_M
+    400058: bangding:Tail4_M
+    400060: bangding:Tail5_M
+    400062: bangding:Tail6_M
+    400064: //RootNode
+    4300000: bangding:guai_hua:polySurface204
+    7400000: attack
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: bangding:guai_hua:polySurface204
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bangding:Group
+        weight: 1
+      - path: bangding:Group/bangding:Main
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:BackA_M
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:BackA_M/bangding:BackB_M
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:BackA_M/bangding:BackB_M/bangding:Chest_M
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:BackA_M/bangding:BackB_M/bangding:Chest_M/bangding:Neck_M
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:BackA_M/bangding:BackB_M/bangding:Chest_M/bangding:Neck_M/bangding:NeckPart1_M
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:BackA_M/bangding:BackB_M/bangding:Chest_M/bangding:Neck_M/bangding:NeckPart1_M/bangding:NeckPart2_M
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:BackA_M/bangding:BackB_M/bangding:Chest_M/bangding:Neck_M/bangding:NeckPart1_M/bangding:NeckPart2_M/bangding:Head_M
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:BackA_M/bangding:BackB_M/bangding:Chest_M/bangding:Neck_M/bangding:NeckPart1_M/bangding:NeckPart2_M/bangding:Head_M/bangding:Hair_M
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:BackA_M/bangding:BackB_M/bangding:Chest_M/bangding:Neck_M/bangding:NeckPart1_M/bangding:NeckPart2_M/bangding:Head_M/bangding:Jaw_M
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:BackA_M/bangding:BackB_M/bangding:Chest_M/bangding:Neck_M/bangding:NeckPart1_M/bangding:NeckPart2_M/bangding:Head_M/bangding:Jaw_M/bangding:JawEnd_M
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:Rump_L
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:Rump_L/bangding:backHip_L
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:Rump_L/bangding:backHip_L/bangding:backKnee_L
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:Rump_L/bangding:backHip_L/bangding:backKnee_L/bangding:backAnkle_L
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:Rump_L/bangding:backHip_L/bangding:backKnee_L/bangding:backAnkle_L/bangding:backBall_L
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:Rump_R
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:Rump_R/bangding:backHip_R
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:Rump_R/bangding:backHip_R/bangding:backKnee_R
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:Rump_R/bangding:backHip_R/bangding:backKnee_R/bangding:backAnkle_R
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:Rump_R/bangding:backHip_R/bangding:backKnee_R/bangding:backAnkle_R/bangding:backBall_R
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:Tail0_M
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:Tail0_M/bangding:Tail1_M
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:Tail0_M/bangding:Tail1_M/bangding:Tail2_M
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:Tail0_M/bangding:Tail1_M/bangding:Tail2_M/bangding:Tail3_M
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:Tail0_M/bangding:Tail1_M/bangding:Tail2_M/bangding:Tail3_M/bangding:Tail4_M
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:Tail0_M/bangding:Tail1_M/bangding:Tail2_M/bangding:Tail3_M/bangding:Tail4_M/bangding:Tail5_M
+        weight: 1
+      - path: bangding:Group/bangding:Main/bangding:DeformationSystem/bangding:Root_M/bangding:Tail0_M/bangding:Tail1_M/bangding:Tail2_M/bangding:Tail3_M/bangding:Tail4_M/bangding:Tail5_M/bangding:Tail6_M
+        weight: 1
+      - path: bangding:guai_hua:polySurface204
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .300000012
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

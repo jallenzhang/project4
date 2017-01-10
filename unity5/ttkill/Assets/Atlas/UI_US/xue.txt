@@ -1,0 +1,44 @@
+{"frames": {
+
+"xue01_shang.png":
+{
+	"frame": {"x":2,"y":2,"w":902,"h":143},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":902,"h":143},
+	"sourceSize": {"w":902,"h":143}
+},
+"xue01_xia.png":
+{
+	"frame": {"x":2,"y":869,"w":850,"h":143},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":850,"h":143},
+	"sourceSize": {"w":850,"h":143}
+},
+"xue01_you.png":
+{
+	"frame": {"x":214,"y":147,"w":195,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":720},
+	"sourceSize": {"w":195,"h":720}
+},
+"xue01_zuo.png":
+{
+	"frame": {"x":2,"y":147,"w":210,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":720},
+	"sourceSize": {"w":210,"h":720}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "xue.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ca9f68dec5163122be4304680fdcee9e$"
+}
+}

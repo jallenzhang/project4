@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 956a5a744191e4946ab9067605d51f0c
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: bangding:Abdomen1_M
+    100002: bangding:Abdomen2_M
+    100004: bangding:Abdomen3_M
+    100006: bangding:Abdomen4_M
+    100008: bangding:BackA_M
+    100010: bangding:BackB_M
+    100012: bangding:BackLeg1_L
+    100014: bangding:BackLeg1_R
+    100016: bangding:BackLeg2_L
+    100018: bangding:BackLeg2_R
+    100020: bangding:BackLeg3_L
+    100022: bangding:BackLeg3_R
+    100024: bangding:BackLeg4_L
+    100026: bangding:BackLeg4_R
+    100028: bangding:BackLeg5_L
+    100030: bangding:BackLeg5_R
+    100032: bangding:DeformationSystem
+    100034: bangding:FrontLeg1_L
+    100036: bangding:FrontLeg1_R
+    100038: bangding:FrontLeg2_L
+    100040: bangding:FrontLeg2_R
+    100042: bangding:FrontLeg3_L
+    100044: bangding:FrontLeg3_R
+    100046: bangding:FrontLeg4_L
+    100048: bangding:FrontLeg4_R
+    100050: bangding:FrontLeg5_L
+    100052: bangding:FrontLeg5_R
+    100054: bangding:Group
+    100056: bangding:guai_pangxie:mon_12_crab_lv2_mon_12_crab_lv2
+    100058: bangding:Head_M
+    100060: bangding:Main
+    100062: bangding:MiddleLeg1_L
+    100064: bangding:MiddleLeg1_R
+    100066: bangding:MiddleLeg2_L
+    100068: bangding:MiddleLeg2_R
+    100070: bangding:MiddleLeg3_L
+    100072: bangding:MiddleLeg3_R
+    100074: bangding:MiddleLeg4_L
+    100076: bangding:MiddleLeg4_R
+    100078: bangding:MiddleLeg5_L
+    100080: bangding:MiddleLeg5_R
+    100082: bangding:Root_M
+    100084: //RootNode
+    400000: bangding:Abdomen1_M
+    400002: bangding:Abdomen2_M
+    400004: bangding:Abdomen3_M
+    400006: bangding:Abdomen4_M
+    400008: bangding:BackA_M
+    400010: bangding:BackB_M
+    400012: bangding:BackLeg1_L
+    400014: bangding:BackLeg1_R
+    400016: bangding:BackLeg2_L
+    400018: bangding:BackLeg2_R
+    400020: bangding:BackLeg3_L
+    400022: bangding:BackLeg3_R
+    400024: bangding:BackLeg4_L
+    400026: bangding:BackLeg4_R
+    400028: bangding:BackLeg5_L
+    400030: bangding:BackLeg5_R
+    400032: bangding:DeformationSystem
+    400034: bangding:FrontLeg1_L
+    400036: bangding:FrontLeg1_R
+    400038: bangding:FrontLeg2_L
+    400040: bangding:FrontLeg2_R
+    400042: bangding:FrontLeg3_L
+    400044: bangding:FrontLeg3_R
+    400046: bangding:FrontLeg4_L
+    400048: bangding:FrontLeg4_R
+    400050: bangding:FrontLeg5_L
+    400052: bangding:FrontLeg5_R
+    400054: bangding:Group
+    400056: bangding:guai_pangxie:mon_12_crab_lv2_mon_12_crab_lv2
+    400058: bangding:Head_M
+    400060: bangding:Main
+    400062: bangding:MiddleLeg1_L
+    400064: bangding:MiddleLeg1_R
+    400066: bangding:MiddleLeg2_L
+    400068: bangding:MiddleLeg2_R
+    400070: bangding:MiddleLeg3_L
+    400072: bangding:MiddleLeg3_R
+    400074: bangding:MiddleLeg4_L
+    400076: bangding:MiddleLeg4_R
+    400078: bangding:MiddleLeg5_L
+    400080: bangding:MiddleLeg5_R
+    400082: bangding:Root_M
+    400084: //RootNode
+    4300000: bangding:guai_pangxie:mon_12_crab_lv2_mon_12_crab_lv2
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: bangding:guai_pangxie:mon_12_crab_lv2_mon_12_crab_lv2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

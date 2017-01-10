@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2EB939C5-449A-0ED6-0227-CF8887479113}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>4.7.0f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_7_0;UNITY_4_7;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_7_0;UNITY_4_7;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="FX Quest">
+      <HintPath>Assets\othereffect\FX Quest\Editor\FX Quest.dll</HintPath>
+    </Reference>
+    <Reference Include="JMOAssets">
+      <HintPath>Assets\othereffect\JMO Assets\Editor\JMOAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>Assets\Plugins\Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>Assets\Plugins\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityVS.VersionSpecific">
+      <HintPath>Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.ttkill.CSharp.Plugins.csproj">
+      <Project>{9CE84299-5E12-63DB-2A09-67C53126689D}</Project>
+      <Name>UnityVS.ttkill.CSharp.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityVS.ttkill.CSharp.csproj">
+      <Project>{6BA5353B-5F3E-8925-C034-F07583D4104E}</Project>
+      <Name>UnityVS.ttkill.CSharp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Colorify\Editor\Colorify_create_mask.cs" />
+    <Compile Include="Assets\Editor\AnimationEventBind.cs" />
+    <Compile Include="Assets\Editor\PathologicalGames\Common\PGEditorUtils.cs" />
+    <Compile Include="Assets\Editor\PathologicalGames\PoolManager\PreRuntimePoolItemInspector.cs" />
+    <Compile Include="Assets\Editor\PathologicalGames\PoolManager\SpawnPoolInspector.cs" />
+    <Compile Include="Assets\Extensions\IOSDeploy\Scripts\Editor\IOSDeployPostProcess.cs" />
+    <Compile Include="Assets\Extensions\IOSDeploy\Scripts\Editor\ISDSettingsEditor.cs" />
+    <Compile Include="Assets\Extensions\IOSNative\Editor\IOSNativeMenu.cs" />
+    <Compile Include="Assets\Extensions\IOSNative\Editor\IOSNativePostProcess.cs" />
+    <Compile Include="Assets\Extensions\IOSNative\Editor\IOSNativeSettingsEditor.cs" />
+    <Compile Include="Assets\Extensions\StansAssetsCommon\Editor\PluginsInstalationUtil.cs" />
+    <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Editor\Water (Pro Only)\Water4\GerstnerDisplaceEditor.cs" />
+    <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Editor\Water (Pro Only)\Water4\PlanarReflectionEditor.cs" />
+    <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Editor\Water (Pro Only)\Water4\SpecularLightingEditor.cs" />
+    <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Editor\Water (Pro Only)\Water4\WaterBaseEditor.cs" />
+    <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Editor\Water (Pro Only)\Water4\WaterEditorUtility.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Editor\InvDatabaseInspector.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Editor\InvFindItem.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\ActiveAnimationEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\BMFontReader.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\ComponentSelector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\EventDelegateDrawer.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\EventDelegateEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\FreeType.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUIContextMenu.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUIEditorExtensions.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUIEditorTools.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUIHandles.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUIHelp.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUIJson.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUIMenu.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUISelectionTools.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUISettings.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUISnap.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUITransformInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\PropertyBindingEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\PropertyReferenceDrawer.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\SpriteSelector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenAlphaEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenColorEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenFOVEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenHeightEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenOrthoSizeEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenPositionEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenRotationEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenScaleEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenTransformEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenVolumeEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenWidthEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UI2DSpriteEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIAnchorEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIAtlasInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIAtlasMaker.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIBasicSpriteEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIButtonColorEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIButtonEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIButtonKeysEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIButtonMessageEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UICameraEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UICameraTool.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UICreateNewUIWizard.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UICreateWidgetWizard.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIDragObjectEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIDrawCallInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIDrawCallViewer.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIEventTriggerEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIFontInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIFontMaker.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIForwardEventsEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIGridEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIImageButtonInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIInputEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIKeyNavigationEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UILabelInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UILocalizeEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIPanelInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIPanelTool.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIPlayAnimationEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIPlayTweenEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIPopupListInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIPrefabTool.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIProgressBarEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIRectEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIRootEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIScrollBarEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIScrollViewEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UISliderEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UISnapshotPointEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UISpriteAnimationInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UISpriteInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIStretchEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UITableEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UITextureInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UITexturePacker.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIToggleInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UITweenerEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIWidgetContainerEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIWrapContentEditor.cs" />
+    <Compile Include="Assets\othereffect\Explosion_V1\Plugins\Editor\HTExplosionEditor.cs" />
+    <Compile Include="Assets\othereffect\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
+    <Compile Include="Assets\othereffect\JMO Assets\WarFX\Editor\WFX_ParticleMeshBillboardEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Atlas\UI\chongwushengji.txt" />
+    <None Include="Assets\Atlas\UI\gengxin.txt" />
+    <None Include="Assets\Atlas\UI\jiesuan.txt" />
+    <None Include="Assets\Atlas\UI\shangcheng.txt" />
+    <None Include="Assets\Atlas\UI\win_effect.txt" />
+    <None Include="Assets\Atlas\UI\wuqishengji.txt" />
+    <None Include="Assets\Atlas\UI\xue.txt" />
+    <None Include="Assets\Atlas\UI\zhandou.txt" />
+    <None Include="Assets\Atlas\UI\zhandou\addHP.txt" />
+    <None Include="Assets\Atlas\UI\zhandou\minusFont.txt" />
+    <None Include="Assets\Atlas\UI\zhandou\wave_font.txt" />
+    <None Include="Assets\Atlas\UI\zhuye.txt" />
+    <None Include="Assets\Atlas\UI_US\biaoti.txt" />
+    <None Include="Assets\Atlas\UI_US\chongwu.txt" />
+    <None Include="Assets\Atlas\UI_US\icon.txt" />
+    <None Include="Assets\Atlas\UI_US\renwushengji.txt" />
+    <None Include="Assets\Atlas\UI_US\shangcheng.txt" />
+    <None Include="Assets\Atlas\UI_US\shezhi.txt" />
+    <None Include="Assets\Atlas\UI_US\wuqi.txt" />
+    <None Include="Assets\Atlas\UI_US\xue.txt" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\Colorify\Manual\changelog.txt" />
+    <None Include="Assets\Colorify\Resources\Colorify_mask_creator.shader" />
+    <None Include="Assets\Colorify\Shaders\Colorify-debug.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\1 color\Colorify-Mask-1color-Alpha-BumpSpec.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\1 color\Colorify-Mask-1color-Alpha-Bumped.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\1 color\Colorify-Mask-1color-BumpSpec.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\1 color\Colorify-Mask-1color-Bumped.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\1 color\Colorify-Mask-1color-Cutout-BumpSpec.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\1 color\Colorify-Mask-1color-Cutout-Bumped.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\1 color\Colorify-Mask-1color-Toon.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\1 color\Colorify-Mask-1color-Unlit-Alpha.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\1 color\Colorify-Mask-1color-Unlit-Cutout.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\1 color\Colorify-Mask-1color-Unlit-Normal.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\2 colors\Colorify-Mask-2colors-Alpha-BumpSpec.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\2 colors\Colorify-Mask-2colors-Alpha-Bumped.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\2 colors\Colorify-Mask-2colors-BumpSpec.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\2 colors\Colorify-Mask-2colors-Bumped.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\2 colors\Colorify-Mask-2colors-Cutout-BumpSpec.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\2 colors\Colorify-Mask-2colors-Cutout-Bumped.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\2 colors\Colorify-Mask-2colors-Toon.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\2 colors\Colorify-Mask-2colors-Unlit-Alpha.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\2 colors\Colorify-Mask-2colors-Unlit-Cutout.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\2 colors\Colorify-Mask-2colors-Unlit-Normal.shader" />
+    <None Include="Assets\Colorify\Shaders\Mask\Colorify-create-mask.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\1 color\Colorify-1color-Alpha-BumpSpec.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\1 color\Colorify-1color-Alpha-Bumped.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\1 color\Colorify-1color-BumpSpec.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\1 color\Colorify-1color-Bumped.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\1 color\Colorify-1color-Cutout-BumpSpec.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\1 color\Colorify-1color-Cutout-Bumped.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\1 color\Colorify-1color-Toon.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\1 color\Colorify-1color-Unlit-Alpha.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\1 color\Colorify-1color-Unlit-Cutout.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\1 color\Colorify-1color-Unlit-Normal.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\2 colors\Colorify-2colors-Alpha-BumpSpec.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\2 colors\Colorify-2colors-Alpha-Bumped.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\2 colors\Colorify-2colors-BumpSpec.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\2 colors\Colorify-2colors-Bumped.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\2 colors\Colorify-2colors-Cutout-BumpSpec.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\2 colors\Colorify-2colors-Cutout-Bumped.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\2 colors\Colorify-2colors-Toon.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\2 colors\Colorify-2colors-Unlit-Alpha.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\2 colors\Colorify-2colors-Unlit-Cutout.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\2 colors\Colorify-2colors-Unlit-Normal.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Dissolve\Colorify-Dissolve-Bump.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Dissolve\Colorify-Dissolve-BumpSpec.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Dissolve\Colorify-Dissolve-Recolor-Bump.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Dissolve\Colorify-Dissolve-Recolor-BumpSpec.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Mobile\Colorify-Mobile-1color-Bumped.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Mobile\Colorify-Mobile-1color-BumpedSpec.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Mobile\Colorify-Mobile-1color-Diffuse.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Mobile\Colorify-Mobile-1color-Toon.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Mobile\Colorify-Mobile-1color-Unlit-Alpha.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Mobile\Colorify-Mobile-1color-Unlit-Cutout.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Mobile\Colorify-Mobile-1color-Unlit-Normal.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Mobile\Colorify-Mobile-2colors-Bumped.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Mobile\Colorify-Mobile-2colors-BumpedSpec .shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Mobile\Colorify-Mobile-2colors-Diffuse.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Mobile\Colorify-Mobile-2colors-Toon.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Mobile\Colorify-Mobile-2colors-Unlit-Alpha.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Mobile\Colorify-Mobile-2colors-Unlit-Cutout.shader" />
+    <None Include="Assets\Colorify\Shaders\Realtime\Mobile\Colorify-Mobile-2colors-Unlit-Normal.shader" />
+    <None Include="Assets\Extensions\IOSNative\Documentation\ISN_VersionNotes.txt" />
+    <None Include="Assets\IceShader\Readme.txt" />
+    <None Include="Assets\IceShader\Shader\IceShaderDistortion.shader" />
+    <None Include="Assets\IceShader\Shader\IceShaderFastSimleBackFace.shader" />
+    <None Include="Assets\IceShader\Shader\IceShaderFastSimple.shader" />
+    <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+    <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+    <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+    <None Include="Assets\NGUI\Examples\Resources\Localization.txt" />
+    <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
+    <None Include="Assets\NGUI\Examples\Shaders\Unlit - Additive Colored.shader" />
+    <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
+    <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth.shader" />
+    <None Include="Assets\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
+    <None Include="Assets\NGUI\ReadMe - 3.7.6.txt" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\plugin_ads.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\plugin_login.xml" />
+    <None Include="Assets\Plugins\Android\res\values-en\plugin_string.xml" />
+    <None Include="Assets\Plugins\Android\res\values\plugin_string.xml" />
+    <None Include="Assets\Plugins\PathologicalGames\readme.txt" />
+    <None Include="Assets\Resources\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+    <None Include="Assets\Resources\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+    <None Include="Assets\Shaders\Fx\Additive.shader" />
+    <None Include="Assets\Shaders\ToonShader.shader" />
+    <None Include="Assets\Shaders\ToonShader02.shader" />
+    <None Include="Assets\Shaders\ghost.shader" />
+    <None Include="Assets\Shaders\minimap.shader" />
+    <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+    <None Include="Assets\StreamingAssets\US\avatar.txt" />
+    <None Include="Assets\StreamingAssets\US\avatar_upgrade.txt" />
+    <None Include="Assets\StreamingAssets\US\gun.txt" />
+    <None Include="Assets\StreamingAssets\US\gun_upgrade.txt" />
+    <None Include="Assets\StreamingAssets\US\item.txt" />
+    <None Include="Assets\StreamingAssets\US\magic.txt" />
+    <None Include="Assets\StreamingAssets\US\monster.txt" />
+    <None Include="Assets\StreamingAssets\US\pet.txt" />
+    <None Include="Assets\StreamingAssets\US\stage.txt" />
+    <None Include="Assets\StreamingAssets\US\stage_infinite.txt" />
+    <None Include="Assets\StreamingAssets\US\task.txt" />
+    <None Include="Assets\StreamingAssets\avatar.txt" />
+    <None Include="Assets\StreamingAssets\avatar_upgrade.txt" />
+    <None Include="Assets\StreamingAssets\gun.txt" />
+    <None Include="Assets\StreamingAssets\gun_upgrade.txt" />
+    <None Include="Assets\StreamingAssets\item.txt" />
+    <None Include="Assets\StreamingAssets\magic.txt" />
+    <None Include="Assets\StreamingAssets\monster.txt" />
+    <None Include="Assets\StreamingAssets\pet.txt" />
+    <None Include="Assets\StreamingAssets\stage.txt" />
+    <None Include="Assets\StreamingAssets\stage_infinite.txt" />
+    <None Include="Assets\StreamingAssets\task.txt" />
+    <None Include="Assets\othereffect\GameFX\Shader\Additive Turbulence.shader" />
+    <None Include="Assets\othereffect\GameFX\Shader\Alpha Blended Turbulence.shader" />
+    <None Include="Assets\othereffect\GameFX\Shader\Distortion.shader" />
+    <None Include="Assets\othereffect\GameFX\Shader\Energy Ball.shader" />
+    <None Include="Assets\othereffect\GameFX\Shader\Trail Additive Turbulence.shader" />
+    <None Include="Assets\othereffect\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft Scroll.shader" />
+    <None Include="Assets\othereffect\JMO Assets\WarFX\Shaders\WFX_S Particle Add A8.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

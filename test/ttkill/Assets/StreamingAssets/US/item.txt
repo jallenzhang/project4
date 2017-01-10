@@ -1,0 +1,4 @@
+[{"id":1,"name":"Boom","jewel":30,"cd_time":30,"desc":"Kill all the monsters on screen, deal 500 damage to Boss"},
+{"id":2,"name":"Frost Star","jewel":20,"cd_time":25,"desc":"Freeze all the monsters on screen for 10 seconds"},
+{"id":3,"name":"First-aid Kit","jewel":20,"cd_time":20,"desc":"Recover 100 HP"},
+{"id":4,"name":"Gatling","jewel":25,"cd_time":25,"desc":"Drop a Gatling to fight for you"}]

@@ -1,0 +1,84 @@
+{"frames": {
+
+"guaiwuxilai.png":
+{
+	"frame": {"x":2,"y":714,"w":569,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":569,"h":47},
+	"sourceSize": {"w":569,"h":47}
+},
+"xue01_shang.png":
+{
+	"frame": {"x":2,"y":147,"w":875,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":875,"h":110},
+	"sourceSize": {"w":875,"h":110}
+},
+"xue01_xia.png":
+{
+	"frame": {"x":2,"y":2,"w":875,"h":143},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":875,"h":143},
+	"sourceSize": {"w":875,"h":143}
+},
+"xue01_you.png":
+{
+	"frame": {"x":513,"y":763,"w":195,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":720},
+	"sourceSize": {"w":195,"h":720}
+},
+"xue01_zuo.png":
+{
+	"frame": {"x":301,"y":763,"w":210,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":720},
+	"sourceSize": {"w":210,"h":720}
+},
+"xue02_shang.png":
+{
+	"frame": {"x":2,"y":259,"w":746,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":746,"h":230},
+	"sourceSize": {"w":746,"h":230}
+},
+"xue02_xia.png":
+{
+	"frame": {"x":2,"y":491,"w":746,"h":221},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":746,"h":221},
+	"sourceSize": {"w":746,"h":221}
+},
+"xue02_you.png":
+{
+	"frame": {"x":750,"y":259,"w":237,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":237,"h":720},
+	"sourceSize": {"w":237,"h":720}
+},
+"xue02_zuo.png":
+{
+	"frame": {"x":2,"y":981,"w":297,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":297,"h":720},
+	"sourceSize": {"w":297,"h":720}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "xue.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:999c35dd73a3a20ae283809f1eeb2267:1/1$"
+}
+}

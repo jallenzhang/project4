@@ -1,0 +1,268 @@
+{"frames": {
+
+"anniu.png":
+{
+	"frame": {"x":2,"y":971,"w":166,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":51},
+	"sourceSize": {"w":166,"h":51}
+},
+"goumai.png":
+{
+	"frame": {"x":570,"y":153,"w":51,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":25},
+	"sourceSize": {"w":51,"h":25}
+},
+"goumaidaoju.png":
+{
+	"frame": {"x":170,"y":971,"w":158,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":45},
+	"sourceSize": {"w":158,"h":45}
+},
+"goumaijinbi.png":
+{
+	"frame": {"x":606,"y":79,"w":157,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":44},
+	"sourceSize": {"w":157,"h":44}
+},
+"goumaitili.png":
+{
+	"frame": {"x":213,"y":723,"w":157,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":44},
+	"sourceSize": {"w":157,"h":44}
+},
+"goumaizuanshi.png":
+{
+	"frame": {"x":330,"y":971,"w":158,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":44},
+	"sourceSize": {"w":158,"h":44}
+},
+"jinbi01.png":
+{
+	"frame": {"x":442,"y":82,"w":72,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":77},
+	"sourceSize": {"w":72,"h":77}
+},
+"jinbi02.png":
+{
+	"frame": {"x":390,"y":386,"w":102,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":102,"h":100},
+	"sourceSize": {"w":102,"h":100}
+},
+"jinbi03.png":
+{
+	"frame": {"x":356,"y":586,"w":108,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":108,"h":103},
+	"sourceSize": {"w":108,"h":103}
+},
+"jinbi04.png":
+{
+	"frame": {"x":213,"y":587,"w":141,"h":134},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":141,"h":134},
+	"sourceSize": {"w":141,"h":134}
+},
+"jinbi05.png":
+{
+	"frame": {"x":199,"y":785,"w":161,"h":184},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":161,"h":184},
+	"sourceSize": {"w":161,"h":184}
+},
+"jinbi06.png":
+{
+	"frame": {"x":2,"y":587,"w":209,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":209,"h":196},
+	"sourceSize": {"w":209,"h":196}
+},
+"jinbi_zi.png":
+{
+	"frame": {"x":356,"y":691,"w":62,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":30},
+	"sourceSize": {"w":62,"h":30}
+},
+"num_white_0.png":
+{
+	"frame": {"x":606,"y":125,"w":170,"h":20},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":170,"h":20},
+	"sourceSize": {"w":512,"h":256}
+},
+"num_yellow_0.png":
+{
+	"frame": {"x":545,"y":263,"w":210,"h":26},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":26},
+	"sourceSize": {"w":512,"h":256}
+},
+"rmb.png":
+{
+	"frame": {"x":623,"y":147,"w":17,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":20},
+	"sourceSize": {"w":17,"h":20}
+},
+"tili01.png":
+{
+	"frame": {"x":442,"y":2,"w":62,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":78},
+	"sourceSize": {"w":62,"h":78}
+},
+"tili02.png":
+{
+	"frame": {"x":516,"y":79,"w":88,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":72},
+	"sourceSize": {"w":88,"h":72}
+},
+"tili03.png":
+{
+	"frame": {"x":379,"y":497,"w":108,"h":86},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":108,"h":86},
+	"sourceSize": {"w":108,"h":86}
+},
+"tili04.png":
+{
+	"frame": {"x":440,"y":200,"w":103,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":103,"h":99},
+	"sourceSize": {"w":103,"h":99}
+},
+"tili05.png":
+{
+	"frame": {"x":223,"y":200,"w":215,"h":184},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":215,"h":184},
+	"sourceSize": {"w":215,"h":184}
+},
+"tili06.png":
+{
+	"frame": {"x":2,"y":389,"w":239,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":239,"h":196},
+	"sourceSize": {"w":239,"h":196}
+},
+"tili_zi.png":
+{
+	"frame": {"x":507,"y":161,"w":61,"h":31},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":61,"h":31},
+	"sourceSize": {"w":65,"h":31}
+},
+"xuanze_anniu.png":
+{
+	"frame": {"x":506,"y":2,"w":252,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":252,"h":75},
+	"sourceSize": {"w":252,"h":75}
+},
+"zhanshi_dikuang.png":
+{
+	"frame": {"x":2,"y":2,"w":219,"h":385},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":219,"h":385},
+	"sourceSize": {"w":219,"h":385}
+},
+"zuanshi01.png":
+{
+	"frame": {"x":545,"y":194,"w":78,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":67},
+	"sourceSize": {"w":78,"h":67}
+},
+"zuanshi02.png":
+{
+	"frame": {"x":440,"y":301,"w":112,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":83},
+	"sourceSize": {"w":112,"h":83}
+},
+"zuanshi03.png":
+{
+	"frame": {"x":243,"y":497,"w":134,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":134,"h":87},
+	"sourceSize": {"w":134,"h":87}
+},
+"zuanshi04.png":
+{
+	"frame": {"x":243,"y":386,"w":145,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":145,"h":109},
+	"sourceSize": {"w":145,"h":109}
+},
+"zuanshi05.png":
+{
+	"frame": {"x":2,"y":785,"w":195,"h":184},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":184},
+	"sourceSize": {"w":195,"h":184}
+},
+"zuanshi06.png":
+{
+	"frame": {"x":223,"y":2,"w":217,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":217,"h":196},
+	"sourceSize": {"w":217,"h":196}
+},
+"zuanshi_zi.png":
+{
+	"frame": {"x":442,"y":161,"w":63,"h":31},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":31},
+	"sourceSize": {"w":65,"h":31}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "shangcheng.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5fa9825d035e34415cb00ad4852be589:1/1$"
+}
+}

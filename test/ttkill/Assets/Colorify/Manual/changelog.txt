@@ -1,0 +1,14 @@
+1.3:
+- Added in-editor mask baking
+- Added recolor mask family of shaders
+
+1.2:
+- Added Maskless dissolve shaders
+
+1.1:
+- Added Toon outline shaders
+- Added Unlit shaders for sprite rendering (transparent, cutout and simple)
+
+1.0b:
+- unified the way main color is handled by different shader families
+- small manual updates.

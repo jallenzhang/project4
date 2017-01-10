@@ -1,0 +1,108 @@
+{"frames": {
+
+"biaotidi.png":
+{
+	"frame": {"x":520,"y":485,"w":280,"h":170},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":280,"h":170},
+	"sourceSize": {"w":280,"h":172}
+},
+"chuangguan_di.png":
+{
+	"frame": {"x":802,"y":486,"w":208,"h":173},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":208,"h":173},
+	"sourceSize": {"w":208,"h":173}
+},
+"fanhuishouye.png":
+{
+	"frame": {"x":819,"y":372,"w":140,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":36},
+	"sourceSize": {"w":140,"h":36}
+},
+"jiesuandikuang.png":
+{
+	"frame": {"x":2,"y":486,"w":516,"h":326},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":516,"h":326},
+	"sourceSize": {"w":516,"h":326}
+},
+"num_level_0.png":
+{
+	"frame": {"x":372,"y":814,"w":508,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":508,"h":62},
+	"sourceSize": {"w":512,"h":256}
+},
+"shengli.png":
+{
+	"frame": {"x":819,"y":198,"w":190,"h":86},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":190,"h":86},
+	"sourceSize": {"w":190,"h":86}
+},
+"shenglibiaotidi.png":
+{
+	"frame": {"x":819,"y":2,"w":192,"h":194},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":194},
+	"sourceSize": {"w":192,"h":194}
+},
+"shenglibiaotidi02.png":
+{
+	"frame": {"x":2,"y":814,"w":368,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":368,"h":192},
+	"sourceSize": {"w":368,"h":192}
+},
+"shezhi_ditu.png":
+{
+	"frame": {"x":2,"y":2,"w":815,"h":481},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":815,"h":481},
+	"sourceSize": {"w":815,"h":481}
+},
+"xiayiguan.png":
+{
+	"frame": {"x":819,"y":448,"w":106,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":106,"h":36},
+	"sourceSize": {"w":106,"h":36}
+},
+"zailaiyiju.png":
+{
+	"frame": {"x":819,"y":410,"w":138,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":138,"h":36},
+	"sourceSize": {"w":138,"h":36}
+},
+"zhanbai.png":
+{
+	"frame": {"x":819,"y":286,"w":186,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":84},
+	"sourceSize": {"w":186,"h":84}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "jiesuan.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ccde389910b47ce45b658ee7f92aeee3:1/1$"
+}
+}

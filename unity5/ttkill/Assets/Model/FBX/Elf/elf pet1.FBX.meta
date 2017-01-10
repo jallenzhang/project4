@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 1d1eede6eb40fbf4dbc6727b38748e70
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: elf pet1
+    100004: Panther
+    100006: PantherHead
+    100008: PantherLLeg1
+    100010: PantherLLeg1 1
+    100012: PantherLLegCollarbone
+    100014: PantherLLegPalm
+    100016: PantherLLegPalm 1
+    100018: PantherLLegPlatform
+    100020: PantherLLegPlatform 1
+    100022: PantherNeck
+    100024: PantherPelvis
+    100026: PantherRibcage
+    100028: PantherRLeg1
+    100030: PantherRLeg1 1
+    100032: PantherRLegCollarbone
+    100034: PantherRLegPalm
+    100036: PantherRLegPalm 1
+    100038: PantherRLegPlatform
+    100040: PantherRLegPlatform 1
+    100042: PantherSpine1
+    100044: PantherSpine2
+    100046: PantherTail1
+    400000: //RootNode
+    400002: elf pet1
+    400004: Panther
+    400006: PantherHead
+    400008: PantherLLeg1
+    400010: PantherLLeg1 1
+    400012: PantherLLegCollarbone
+    400014: PantherLLegPalm
+    400016: PantherLLegPalm 1
+    400018: PantherLLegPlatform
+    400020: PantherLLegPlatform 1
+    400022: PantherNeck
+    400024: PantherPelvis
+    400026: PantherRibcage
+    400028: PantherRLeg1
+    400030: PantherRLeg1 1
+    400032: PantherRLegCollarbone
+    400034: PantherRLegPalm
+    400036: PantherRLegPalm 1
+    400038: PantherRLegPlatform
+    400040: PantherRLegPlatform 1
+    400042: PantherSpine1
+    400044: PantherSpine2
+    400046: PantherTail1
+    4300000: elf pet1
+    7400000: elf pet
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: elf pet1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: elf pet
+      takeName: elf pet
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: elf pet1
+        weight: 1
+      - path: Panther
+        weight: 1
+      - path: PantherLLegPlatform
+        weight: 1
+      - path: PantherLLegPlatform 1
+        weight: 1
+      - path: PantherPelvis
+        weight: 1
+      - path: PantherPelvis/PantherLLeg1
+        weight: 1
+      - path: PantherPelvis/PantherLLeg1/PantherLLegPalm
+        weight: 1
+      - path: PantherPelvis/PantherRLeg1
+        weight: 1
+      - path: PantherPelvis/PantherRLeg1/PantherRLegPalm
+        weight: 1
+      - path: PantherPelvis/PantherSpine1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegCollarbone
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegCollarbone/PantherLLeg1
+          1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegCollarbone/PantherLLeg1
+          1/PantherLLegPalm 1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck/PantherHead
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegCollarbone
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegCollarbone/PantherRLeg1
+          1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegCollarbone/PantherRLeg1
+          1/PantherRLegPalm 1
+        weight: 1
+      - path: PantherPelvis/PantherTail1
+        weight: 1
+      - path: PantherRLegPlatform
+        weight: 1
+      - path: PantherRLegPlatform 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00100000005
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

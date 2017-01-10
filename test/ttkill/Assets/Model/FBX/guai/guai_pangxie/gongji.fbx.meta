@@ -1,0 +1,262 @@
+fileFormatVersion: 2
+guid: 480bb835695ae854a9bfe3f7d9a2822e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: gongji:bangding:Abdomen1_M
+    100004: gongji:bangding:Abdomen2_M
+    100006: gongji:bangding:Abdomen3_M
+    100008: gongji:bangding:Abdomen4_M
+    100010: gongji:bangding:BackA_M
+    100012: gongji:bangding:BackB_M
+    100014: gongji:bangding:BackLeg1_L
+    100016: gongji:bangding:BackLeg1_R
+    100018: gongji:bangding:BackLeg2_L
+    100020: gongji:bangding:BackLeg2_R
+    100022: gongji:bangding:BackLeg3_L
+    100024: gongji:bangding:BackLeg3_R
+    100026: gongji:bangding:BackLeg4_L
+    100028: gongji:bangding:BackLeg4_R
+    100030: gongji:bangding:BackLeg5_L
+    100032: gongji:bangding:BackLeg5_R
+    100034: gongji:bangding:DeformationSystem
+    100036: gongji:bangding:FrontLeg1_L
+    100038: gongji:bangding:FrontLeg1_R
+    100040: gongji:bangding:FrontLeg2_L
+    100042: gongji:bangding:FrontLeg2_R
+    100044: gongji:bangding:FrontLeg3_L
+    100046: gongji:bangding:FrontLeg3_R
+    100048: gongji:bangding:FrontLeg4_L
+    100050: gongji:bangding:FrontLeg4_R
+    100052: gongji:bangding:FrontLeg5_L
+    100054: gongji:bangding:FrontLeg5_R
+    100056: gongji:bangding:Group
+    100058: gongji:bangding:guai_pangxie:mon_12_crab_lv2_mon_12_crab_lv2
+    100060: gongji:bangding:Head_M
+    100062: gongji:bangding:Main
+    100064: gongji:bangding:MiddleLeg1_L
+    100066: gongji:bangding:MiddleLeg1_R
+    100068: gongji:bangding:MiddleLeg2_L
+    100070: gongji:bangding:MiddleLeg2_R
+    100072: gongji:bangding:MiddleLeg3_L
+    100074: gongji:bangding:MiddleLeg3_R
+    100076: gongji:bangding:MiddleLeg4_L
+    100078: gongji:bangding:MiddleLeg4_R
+    100080: gongji:bangding:MiddleLeg5_L
+    100082: gongji:bangding:MiddleLeg5_R
+    100084: gongji:bangding:Root_M
+    400000: //RootNode
+    400002: gongji:bangding:Abdomen1_M
+    400004: gongji:bangding:Abdomen2_M
+    400006: gongji:bangding:Abdomen3_M
+    400008: gongji:bangding:Abdomen4_M
+    400010: gongji:bangding:BackA_M
+    400012: gongji:bangding:BackB_M
+    400014: gongji:bangding:BackLeg1_L
+    400016: gongji:bangding:BackLeg1_R
+    400018: gongji:bangding:BackLeg2_L
+    400020: gongji:bangding:BackLeg2_R
+    400022: gongji:bangding:BackLeg3_L
+    400024: gongji:bangding:BackLeg3_R
+    400026: gongji:bangding:BackLeg4_L
+    400028: gongji:bangding:BackLeg4_R
+    400030: gongji:bangding:BackLeg5_L
+    400032: gongji:bangding:BackLeg5_R
+    400034: gongji:bangding:DeformationSystem
+    400036: gongji:bangding:FrontLeg1_L
+    400038: gongji:bangding:FrontLeg1_R
+    400040: gongji:bangding:FrontLeg2_L
+    400042: gongji:bangding:FrontLeg2_R
+    400044: gongji:bangding:FrontLeg3_L
+    400046: gongji:bangding:FrontLeg3_R
+    400048: gongji:bangding:FrontLeg4_L
+    400050: gongji:bangding:FrontLeg4_R
+    400052: gongji:bangding:FrontLeg5_L
+    400054: gongji:bangding:FrontLeg5_R
+    400056: gongji:bangding:Group
+    400058: gongji:bangding:guai_pangxie:mon_12_crab_lv2_mon_12_crab_lv2
+    400060: gongji:bangding:Head_M
+    400062: gongji:bangding:Main
+    400064: gongji:bangding:MiddleLeg1_L
+    400066: gongji:bangding:MiddleLeg1_R
+    400068: gongji:bangding:MiddleLeg2_L
+    400070: gongji:bangding:MiddleLeg2_R
+    400072: gongji:bangding:MiddleLeg3_L
+    400074: gongji:bangding:MiddleLeg3_R
+    400076: gongji:bangding:MiddleLeg4_L
+    400078: gongji:bangding:MiddleLeg4_R
+    400080: gongji:bangding:MiddleLeg5_L
+    400082: gongji:bangding:MiddleLeg5_R
+    400084: gongji:bangding:Root_M
+    4300000: gongji:bangding:guai_pangxie:mon_12_crab_lv2_mon_12_crab_lv2
+    7400000: attack
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: gongji:bangding:guai_pangxie:mon_12_crab_lv2_mon_12_crab_lv2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gongji:bangding:Group
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:Abdomen1_M
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:Abdomen1_M/gongji:bangding:Abdomen2_M
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:Abdomen1_M/gongji:bangding:Abdomen2_M/gongji:bangding:Abdomen3_M
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:Abdomen1_M/gongji:bangding:Abdomen2_M/gongji:bangding:Abdomen3_M/gongji:bangding:Abdomen4_M
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:BackB_M
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:BackB_M/gongji:bangding:FrontLeg1_L
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:BackB_M/gongji:bangding:FrontLeg1_L/gongji:bangding:FrontLeg2_L
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:BackB_M/gongji:bangding:FrontLeg1_L/gongji:bangding:FrontLeg2_L/gongji:bangding:FrontLeg3_L
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:BackB_M/gongji:bangding:FrontLeg1_L/gongji:bangding:FrontLeg2_L/gongji:bangding:FrontLeg3_L/gongji:bangding:FrontLeg4_L
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:BackB_M/gongji:bangding:FrontLeg1_L/gongji:bangding:FrontLeg2_L/gongji:bangding:FrontLeg3_L/gongji:bangding:FrontLeg4_L/gongji:bangding:FrontLeg5_L
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:BackB_M/gongji:bangding:FrontLeg1_R
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:BackB_M/gongji:bangding:FrontLeg1_R/gongji:bangding:FrontLeg2_R
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:BackB_M/gongji:bangding:FrontLeg1_R/gongji:bangding:FrontLeg2_R/gongji:bangding:FrontLeg3_R
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:BackB_M/gongji:bangding:FrontLeg1_R/gongji:bangding:FrontLeg2_R/gongji:bangding:FrontLeg3_R/gongji:bangding:FrontLeg4_R
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:BackB_M/gongji:bangding:FrontLeg1_R/gongji:bangding:FrontLeg2_R/gongji:bangding:FrontLeg3_R/gongji:bangding:FrontLeg4_R/gongji:bangding:FrontLeg5_R
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:BackB_M/gongji:bangding:Head_M
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:MiddleLeg1_L
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:MiddleLeg1_L/gongji:bangding:MiddleLeg2_L
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:MiddleLeg1_L/gongji:bangding:MiddleLeg2_L/gongji:bangding:MiddleLeg3_L
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:MiddleLeg1_L/gongji:bangding:MiddleLeg2_L/gongji:bangding:MiddleLeg3_L/gongji:bangding:MiddleLeg4_L
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:MiddleLeg1_L/gongji:bangding:MiddleLeg2_L/gongji:bangding:MiddleLeg3_L/gongji:bangding:MiddleLeg4_L/gongji:bangding:MiddleLeg5_L
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:MiddleLeg1_R
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:MiddleLeg1_R/gongji:bangding:MiddleLeg2_R
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:MiddleLeg1_R/gongji:bangding:MiddleLeg2_R/gongji:bangding:MiddleLeg3_R
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:MiddleLeg1_R/gongji:bangding:MiddleLeg2_R/gongji:bangding:MiddleLeg3_R/gongji:bangding:MiddleLeg4_R
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackA_M/gongji:bangding:MiddleLeg1_R/gongji:bangding:MiddleLeg2_R/gongji:bangding:MiddleLeg3_R/gongji:bangding:MiddleLeg4_R/gongji:bangding:MiddleLeg5_R
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackLeg1_L
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackLeg1_L/gongji:bangding:BackLeg2_L
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackLeg1_L/gongji:bangding:BackLeg2_L/gongji:bangding:BackLeg3_L
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackLeg1_L/gongji:bangding:BackLeg2_L/gongji:bangding:BackLeg3_L/gongji:bangding:BackLeg4_L
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackLeg1_L/gongji:bangding:BackLeg2_L/gongji:bangding:BackLeg3_L/gongji:bangding:BackLeg4_L/gongji:bangding:BackLeg5_L
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackLeg1_R
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackLeg1_R/gongji:bangding:BackLeg2_R
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackLeg1_R/gongji:bangding:BackLeg2_R/gongji:bangding:BackLeg3_R
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackLeg1_R/gongji:bangding:BackLeg2_R/gongji:bangding:BackLeg3_R/gongji:bangding:BackLeg4_R
+        weight: 1
+      - path: gongji:bangding:Group/gongji:bangding:Main/gongji:bangding:DeformationSystem/gongji:bangding:Root_M/gongji:bangding:BackLeg1_R/gongji:bangding:BackLeg2_R/gongji:bangding:BackLeg3_R/gongji:bangding:BackLeg4_R/gongji:bangding:BackLeg5_R
+        weight: 1
+      - path: gongji:bangding:guai_pangxie:mon_12_crab_lv2_mon_12_crab_lv2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .400000006
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
